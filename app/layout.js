@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Continuum — AI & Tech for African Creative Builders',
+  title: 'Bumblebee News — AI & Tech for African Creative Builders',
   description: 'AI and tech news for African creative economy founders and operators, plain language, no jargon',
 };
 
