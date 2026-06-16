@@ -70,7 +70,7 @@ export default function Home() {
       <header style={{ marginBottom: '2rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap', gap: '8px' }}>
           <h1 style={{ fontFamily: 'Georgia, "Times New Roman", serif', fontSize: '28px', fontWeight: 700, margin: 0, color: '#2b1d14' }}>
-            Continuum
+            🐝 Bumblebee News
           </h1>
           <span style={{ fontSize: '12px', color: '#9c8a78' }}>
             {lastUpdated ? `Updated ${timeAgo(lastUpdated)}` : 'Loading…'}
