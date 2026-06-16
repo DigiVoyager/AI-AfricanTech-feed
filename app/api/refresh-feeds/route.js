@@ -10,9 +10,12 @@ const FEEDS = [
   { name: "Techpoint Africa", url: "https://techpoint.africa/feed/", cat: "Africa Tech & Funding", cap: 15 },
   { name: "Google News: AI Africa", url: "https://news.google.com/rss/search?q=AI+Africa+when:2d&hl=en-NG&gl=NG&ceid=NG:en", cat: "Africa Tech & Funding", cap: 12 },
   { name: "Google News: AI Creative Africa", url: "https://news.google.com/rss/search?q=AI+creative+economy+OR+Nollywood+OR+%22AI+music%22+Africa+when:5d&hl=en-NG&gl=NG&ceid=NG:en", cat: "Africa Tech & Funding", cap: 12 },
+  { name: "Google News: AI Policy Africa", url: "https://news.google.com/rss/search?q=%22AI+policy%22+OR+NITDA+OR+%22AI+strategy%22+Nigeria+OR+Africa+when:5d&hl=en-NG&gl=NG&ceid=NG:en", cat: "Policy & Regulation", cap: 10 },
+  { name: "Google News: AI Film & Movies", url: "https://news.google.com/rss/search?q=%22AI%22+film+OR+movie+OR+Hollywood+OR+Nollywood+when:3d&hl=en-NG&gl=NG&ceid=NG:en", cat: "Global AI Industry", cap: 8 },
   { name: "Rest of World", url: "https://www.restofworld.org/feed/", cat: "Global AI Industry", cap: 10 },
   { name: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/feed/", cat: "Global AI Industry", cap: 15 },
   { name: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/", cat: "Global AI Industry", cap: 15 },
+  { name: "Hacker News: AI", url: "https://hnrss.org/newest?q=AI&points=50", cat: "Global AI Industry", cap: 10 },
   { name: "Ars Technica", url: "https://feeds.arstechnica.com/arstechnica/index/", cat: "Policy & Regulation", cap: 10 },
 ];
 
@@ -41,7 +44,7 @@ const KEYWORDS = {
   "#Fintech": /fintech|payment|mobile money/i,
   "#Startup": /startup|founder/i,
   "#Fashion": /fashion|design house|textile|apparel/i,
-  "#Film": /film|nollywood|movie|cinema/i,
+  "#Film": /film|nollywood|movie|cinema|studio|\bvfx\b|hollywood|streaming/i,
   "#Music": /\bmusic\b|afrobeat|sound design/i,
   "#Health": /health|medical|diagnos|hospital/i,
   "#Agriculture": /agri|farm|crop/i,
